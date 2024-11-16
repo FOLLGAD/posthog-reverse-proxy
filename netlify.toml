@@ -12,3 +12,18 @@
   status = 200
   force = true
 
+# For US:
+
+# [[redirects]]
+#   from = "/static/*"
+#   to = "https://us-assets.i.posthog.com/static/:splat"
+#   host = "eu-assets.i.posthog.com"
+#   status = 200
+#   force = true
+
+# [[redirects]]
+#   from = "/*"
+#   to = "https://us.i.posthog.com/:splat"
+#   host = "eu.i.posthog.com"
+#   status = 200
+#   force = true
